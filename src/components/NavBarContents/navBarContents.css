@@ -1,0 +1,58 @@
+.navBarContent{
+    width: 80vw;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130px;
+    font-weight: 900;
+    height: 100vh;
+    z-index: 200;
+    margin-top: 40px;
+    left: 10vw;
+    animation: showNav 1s ease-in forwards;
+}
+
+@keyframes showNav{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.navBarContent div{
+    margin: 0 auto;
+    width: max-content;
+    height: 100vh;
+}
+.navBarContent a{
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-decoration: none;
+    color: #110935;
+    transition: all ease 0.3s;
+}
+
+.navBarContent a:hover{
+    color: transparent;
+    -webkit-text-stroke: 3px #110935;
+}
+
+#laptop{
+    width: 150px;
+    -webkit-filter: drop-shadow(10px 10px 30px rgb(165, 165, 165));
+    filter: drop-shadow(10px 10px 30px rgb(165, 165, 165));
+    /* margin-left: 200px; */
+}
+
+#rocket{
+    width: 250px;
+    -webkit-filter: drop-shadow(10px 10px 20px rgb(180, 180, 180));
+    filter: drop-shadow(10px 10px 20px rgb(180, 180, 180));
+    margin-top: 350px;
+}
+
+#data{
+    width: 200px;
+    -webkit-filter: drop-shadow(10px 10px 10px rgb(117, 117, 117));
+    filter: drop-shadow(10px 10px 10px rgb(117, 117, 117));
+    margin-top: 150px;
+    margin-left: 70vw;
+}
